@@ -1,0 +1,18 @@
+.gmail-conversation-copy-button {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 2147483647;
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 999px;
+  background: #1a73e8;
+  color: #fff;
+  font: 600 14px Arial, sans-serif;
+  box-shadow: 0 2px 8px #0004;
+  cursor: pointer;
+}
+
+.gmail-conversation-copy-button:hover { background: #1558b0; }
+.gmail-conversation-copy-button:focus-visible { outline: 3px solid #8ab4f8; outline-offset: 3px; }
+.gmail-conversation-copy-button[hidden] { display: none; }

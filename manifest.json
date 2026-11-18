@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Copy Gmail Conversations",
+  "version": "0.1.0",
+  "description": "Copy the visible messages in an open Gmail conversation.",
+  "permissions": ["clipboardWrite"],
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/mail/*"],
+      "js": ["src/content.js"],
+      "css": ["src/content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
